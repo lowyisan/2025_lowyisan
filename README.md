@@ -67,4 +67,4 @@ Ensure the following are installed on your system:
 
 Low Yi San - yisanlow@gmail.com
 
-Project Link: [[https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)](https://github.com/lowyisan/2025_lowyisan)
+Project Link: https://github.com/lowyisan/2025_lowyisan
