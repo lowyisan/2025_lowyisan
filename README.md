@@ -41,22 +41,26 @@ This project leverages the following technologies:
 
 Ensure the following are installed on your system:
 
-* Docker: Install Docker
-* Docker Compose: Install Docker Compose
-* Git: Install Git
+* Docker
+* Docker Compose
+* Node.js
+* Java Development Kit
+* Maven
 
 ## Running the Application
 
 1. Build and start the containers:
     
-   ```docker-compose up --build
+   ```
+   docker-compose up --build
    ```
 
 2. Access the application
    * Open a browser and navigate to http://localhost:3000
 
 3. Stop the containers when done:
-   ```docker-compose down
+   ```
+   docker-compose down
    ```
 
 ## Contact
