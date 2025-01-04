@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://140.245.122.206';
+const API_URL = 'http://localhost:8080';
 
 // Function to call the backend API
 export const calculateMinCoins = async (targetAmount, coinDenominations) => {

@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "http://140.245.122.206")
+@CrossOrigin(origins = "http://localhost:3000")
 public class CoinController {
 
     @PostMapping("/min-coins")
