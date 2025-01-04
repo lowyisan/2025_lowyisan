@@ -56,7 +56,8 @@ Ensure the following are installed on your system:
    ```
 
 2. Access the application
-   * Open a browser and navigate to http://localhost:3000
+   * Open a browser and navigate to http://localhost:3000 (running locally)
+   * Otherwise, you can just access the website at this public ip http://140.245.122.206/
 
 3. Stop the containers when done:
    ```
