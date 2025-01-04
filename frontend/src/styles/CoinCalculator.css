@@ -20,10 +20,10 @@ body {
   }
   
   .calculator-card {
-    background: #111; /* Dark card */
-    border: 2px solid #ed1b76; /* Red border */
+    background: #111;
+    border: 2px solid #ed1b76; 
     border-radius: 12px;
-    box-shadow: 0 4px 15px #f44786; /* Glowing red shadow */
+    box-shadow: 0 4px 15px #f44786; 
     width: 400px;
     padding: 2rem;
   }
@@ -112,3 +112,148 @@ body {
     text-align: center;
   }
   
+  body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: url('../images/squid-game.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    color: #fff;
+}
+
+.calculator-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+.calculator-card {
+    background: #111;
+    border: 2px solid #ed1b76; 
+    border-radius: 12px;
+    box-shadow: 0 4px 15px #f44786; 
+    width: 400px;
+    max-width: 100%;
+    padding: 2rem;
+}
+
+.calculator-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #ed1b76; /* Squid Game red */
+}
+
+.calculator-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #fff;
+}
+
+input {
+    padding: 0.75rem;
+    border: 2px solid #ed1b76;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #484848; 
+    color: #fff; 
+}
+
+input:focus {
+    outline: none;
+    border-color: #ed1b76;
+    box-shadow: 0 0 8px #f44786;
+}
+
+.submit-button {
+    background-color: #ed1b76;
+    color: #fff;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.submit-button:hover {
+    background-color: #d31b6a;
+    transform: scale(1.05);
+}
+
+.result-section {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.result-output {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #037a76;
+}
+
+.no-result {
+    font-size: 1rem;
+    color: #aaa;
+}
+
+.error-message {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #ed1b76; 
+    color: #ffcccc; 
+    border: 1px solid #f44786;
+    border-radius: 8px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 768px) {
+    .calculator-card {
+        width: 90%;
+        padding: 1.5rem;
+    }
+
+    .calculator-title {
+        font-size: 1.8rem;
+    }
+
+    input {
+        font-size: 0.9rem;
+        padding: 0.6rem;
+    }
+
+    .submit-button {
+        font-size: 1rem;
+        padding: 0.6rem;
+    }
+
+    .result-output {
+        font-size: 1rem;
+    }
+
+    .error-message {
+        font-size: 0.9rem;
+    }
+}
