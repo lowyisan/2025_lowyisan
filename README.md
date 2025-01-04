@@ -49,7 +49,7 @@ Ensure the following are installed on your system:
 
 ## Running the Application
 
-1. Build and start the containers:
+1. In the root directory, build and start the containers:
     
    ```
    docker-compose up --build
@@ -57,7 +57,6 @@ Ensure the following are installed on your system:
 
 2. Access the application
    * Open a browser and navigate to http://localhost:3000 (running locally)
-     * If running locally, please make sure to change the ip address in the CoinController.java and coinService.js to http://localhost:3000 and http://localhost:8080 respectively.
    * Otherwise, you can just access the website at this public ip http://140.245.122.206/
 
 3. Stop the containers when done:
